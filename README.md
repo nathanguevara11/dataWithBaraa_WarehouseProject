@@ -1,7 +1,7 @@
 # Data Warehouse Project! 
 This project is part of DataWithBaraa's 30 hour SQL video using SQL Sever, which I have adapted to work in Postgresql.  
 
-This projects purpose is to be a comprehensive challenge that teaches the majority of fundamental SQL concepts simultaneously. It was structured where there would be three schemas to denote layers in the database (bronze, silver, gold). This was a way to purify the data in stages so that once we got the gold layer we would have organized and structured data to use for exploratory data analysis. In this readme we will provide a brief description of what was done in each layer. 
+This projects purpose is to be a comprehensive challenge that teaches the majority of fundamental SQL concepts simultaneously. It was structured where there would be three schemas to denote layers in the database (bronze, silver, gold). This was a way to purify the data in stages so that once we got the gold layer we would have organized and structured data to use for exploratory data analysis (split into the standard exploratory data analysis and advanced analysis sections). In this readme we will provide a brief description of what was done in each layer. 
 
 ## The Bronze Layer 
 The bronze layer is where we created the database and schemas, handled tables, and did some basic cleaning on the data so that it could be transported to the silver layer. This includes things such as: 
@@ -31,6 +31,9 @@ This section took the data from the gold layer and performed aggregations, manip
 - Differences, such as difference between the value of a sale to the average sale of that product
 - Using dates to derive insights (a customers date range of purchase, oldest purchase, newest purchase, etc.)
 - Continued use of case statements to organize, handle edge cases (such as dividing by 0), and classify data
+- Ran aggregations on data based on specific dimensions (sales by country, top # of products by sales, etc)
+
+Once these insights were obtained we concatenated them using UNION to create one comprehensive report that was stored in the gold layer. 
 
 ## Advanced Analysis 
-
+In this section 
