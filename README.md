@@ -36,4 +36,14 @@ This section took the data from the gold layer and performed aggregations, manip
 Once these insights were obtained we concatenated them using UNION to create one comprehensive report that was stored in the gold layer. 
 
 ## Advanced Analysis 
-In this section 
+In this section we built upon the exploratory data analysis we started with. We took the analysis a step further by: 
+- analyzing data based on timeframes (months, years, secific date ranges, etc.)
+- cumulative analysis (running totals, running averages over periods of time)
+- percent of total analysis (highest and lowest contributors to sales, etc.)
+
+Using the methods mentioned above we generated two reports, an avdances sales report and product report that were in the form of two views stored in the gold layer. 
+
+## Conclusion 
+This project was intended to incorporate vital skills in SQL in one project that mirrors data warehousing, ETL, and data analysis in the work environment. It showed me the next level applications of SQL while strengthening the conepts I had already learned. I beleive this was an astounding project that I thank the creator, Baraa Khatib Salkini, for. 
+
+I plan to update this project by adding a visualization component in tableau. 
