@@ -5,11 +5,15 @@ This projects purpose is to be a comprehensive challenge that would teach the ma
 
 ## The Bronze Layer 
 The bronze layer is where we created the database and schemas, handled tables, and did some basic cleaning on the data so that it could be transported to the silver layer.This includes things such as: 
--- deleting duplicate orders
+- deleting duplicate orders (Using window functions, cte's, and subqueries)
+- String manipulation (Trimming, parsing, replacing, etc)
+-  Use of case statements (Assigning bins, data type conversions based on conditions, etc)
 
+This ensured our data was uniformly structured within our tables.  
 
 ## The Silver Layer
-The silver layer involved cleaning and repackaging the data. We removed duplicates, trimmed strings, used case statements to clean our data, etc. 
+The silver layer involved joining tables. 
+- 
 
 ## The Gold Layer
 
